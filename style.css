@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.page-header__title {
+  text-align: center;
+}
+
+/* RESUME */
+
+.resume__item {
+  margin-bottom: 10px;
+}
